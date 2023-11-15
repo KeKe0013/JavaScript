@@ -87,15 +87,29 @@ p {
     background: #004466;
     width: 500px;
     margin: 0 auto;
-    padding: 10px;
+    /*padding: 10px;*/
     display: flex;
 }
 
 .item{
-    width: 100px;
+    /*width: 100px;*/
     background: #00ffa2;
     color:#004466;
     font-size: 36px;
     text-align: center;
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.item1{
+    width: 150px;
+    height: 150px;
+}
+
+.item2{
+    height: 200px;
+}
+
+.item{
+    width: 400px;
 }
