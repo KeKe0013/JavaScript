@@ -26,10 +26,57 @@ p {
     text-indent: 32px;
 }
 
-.style1 {
+.style1 a {
     color: tomato;
+}
+
+.style1 p {
+    color: gray;
+    font-weight: bold;
 }
 
 .dog {
     border: 3px dashed #000;
+}
+
+.style2 {
+    color: blue;
+}
+.box{
+    margin-left: 50px ;
+    border: 3px solid gray;
+    padding: 50px;
+}
+.box p {
+    color: pink;
+    margin: 30px;
+}
+
+.wrap{
+    width: 500px;
+    background: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header p{
+    padding: 30px;
+    color:white;
+    margin-bottom: 30px;
+}
+
+.content{
+    height: 100px;
+    background: blue;
+}
+
+.footer{
+    height: 50px;
+    background: pink;
 }
